@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Mar 31 13:11:13 2024
+# Process ID: 7436
+# Current directory: C:/Users/prern/OneDrive/Desktop/DD_Final
+# Command line: vivado.exe -mode tcl -source C:\Users\prern\AppData\Roaming\Python\Python311\site-packages\zynet\db/vivadoScript.tcl -tclargs xc7z020clg484-1
+# Log file: C:/Users/prern/OneDrive/Desktop/DD_Final/vivado.log
+# Journal file: C:/Users/prern/OneDrive/Desktop/DD_Final\vivado.jou
+# Running On: LAPTOP-MFU667K1, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 7866 MB
+#-----------------------------------------------------------
+source {C:\Users\prern\AppData\Roaming\Python\Python311\site-packages\zynet\db/vivadoScript.tcl}

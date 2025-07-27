@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Mar 31 13:11:13 2024
+# Process ID: 7436
+# Current directory: C:/Users/prern/OneDrive/Desktop/DD_Final
+# Command line: vivado.exe -mode tcl -source C:\Users\prern\AppData\Roaming\Python\Python311\site-packages\zynet\db/vivadoScript.tcl -tclargs xc7z020clg484-1
+# Log file: C:/Users/prern/OneDrive/Desktop/DD_Final/vivado.log
+# Journal file: C:/Users/prern/OneDrive/Desktop/DD_Final\vivado.jou
+# Running On: LAPTOP-MFU667K1, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 7866 MB
+#-----------------------------------------------------------
+source {C:\Users\prern\AppData\Roaming\Python\Python311\site-packages\zynet\db/vivadoScript.tcl}
+# create_project -in_memory -part [lindex $argv 0]
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 473.043 ; gain = 176.949
+# set_param synth.vivado.isSynthRun true
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_mem [glob ./src/fpga/rtl/*.mif ]
+# read_verilog -library xil_defaultlib [glob ./src/fpga/rtl/*.v]
+# add_files -fileset sim_1 -norecurse ./src/fpga/tb/top_sim.v
+# set_property top zyNet [current_fileset]
+# set_property top top_sim [get_filesets sim_1]
+# write_project_tcl -force -no_copy_sources -all_properties -use_bd_files {zynet.tcl}
+WARNING: [Vivado 12-818] No files matched '*.bd'
+INFO: [Vivado-projutils-8] Tcl script 'zynet.tcl' generated in output directory 'C:/Users/prern/OneDrive/Desktop/DD_Final'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set with respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source zynet.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+# exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 31 13:11:38 2024...
